@@ -1,2 +1,1 @@
-# projetoemC
-programas em C
+Criando programas em C
