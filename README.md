@@ -8,5 +8,7 @@ apos isso voce cadastra a segunda carta da mesma maneira que fez com a primeira 
 depois de prencher esses requisitos do jogo, vai aparecer um menu de comparaçoes, voce escolhe uma das opçoes e logo apos isso o programa ira exibir qual a carta que ganhou.
 
 *ALERTA*
+
 AO COLOAR O NOME DA CIDADE NAO DE ESPAÇO
+
 isso quebrara o programa!
