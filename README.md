@@ -9,6 +9,6 @@ depois de prencher esses requisitos do jogo, vai aparecer um menu de comparaçoe
 
 *ALERTA*
 
-AO COLOAR O NOME DA CIDADE NAO DE ESPAÇO
+AO COLOCAR O NOME DA CIDADE NAO DE ESPAÇO
 
 isso quebrara o programa!
