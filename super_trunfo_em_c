@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 int main() {
     // Dados da primeira carta
@@ -48,27 +49,44 @@ int main() {
     printf("\n=== CADASTRO SEGUNDA CARTA ===\n");
     printf("Digite o numero da carta: \n");
     scanf("%d", &carta2);
+
+    if (carta2 == carta ? printf("Os Valores nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite o estado (sigla): \n");
     scanf("%s", estado2);
+
+    if(strcmp(estado2, estado) == 0 ? printf("Os Valores nao podem ser iguais!\n"), 1 : 0) return 1;if(strcmp(estado2, estado) == 0 ? printf("Os Estados nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite o código: \n");
     scanf("%s", codigo2);
+
+    if(strcmp(codigo2, codigo) == 0 ? printf("Os Valores nao podem ser iguais!\n"), 1 : 0) return 1;if(strcmp(estado2, estado) == 0 ? printf("Os Estados nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite a cidade: \n");
     scanf("%s", cidade2);
+
+    if(strcmp(cidade2, cidade) == 0 ? printf("Os Valores nao podem ser iguais!\n"), 1 : 0) return 1;if(strcmp(estado2, estado) == 0 ? printf("Os Estados nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite a população: \n");
     scanf("%u", &populacao2);
+
+    if (populacao2 == populacao ? printf("Os Valores nao podem ser iguais!\n"), 1 : 0) return 1;
+
     
     printf("Digite a área (km²): \n");
     scanf("%f", &area2);
+
+    if(fabs(area2 - area) < 0.0001f ? printf("Os Valoes nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite o PIB (bilhões): \n");
     scanf("%f", &pib2);
+
+    if(fabs(pib2 - pib) < 0.0001f ? printf("Os Valoes nao podem ser iguais!\n"), 1 : 0) return 1;
     
     printf("Digite o numero de pontos turísticos: \n");
     scanf("%d", &ponto_turistico2);
+
+    if (ponto_turistico2 == ponto_turistico ? printf("As Cartas nao podem ser iguais!\n"), 1 : 0) return 1;
     
     // Cálculos segunda carta
     densidadepopulacional2 = populacao2 / area2;
