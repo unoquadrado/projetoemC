@@ -3,13 +3,13 @@
 #include <math.h>
 
 int main() {
-    // Dados da primeira carta
+    // dados da primeira carta
     char estado[3], cidade[20], codigo[5];
     int carta, ponto_turistico;
     unsigned int populacao;
     float area, pib, densidadepopulacional, pibpercapita;
 
-    // Dados da segunda carta  
+    // dados da segunda carta  
     char estado2[3], cidade2[20], codigo2[5];
     int carta2, ponto_turistico2;
     unsigned int populacao2;
